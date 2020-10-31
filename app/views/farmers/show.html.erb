@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Item:</strong>
+  <%= @farmer.item %>
+</p>
+
+<p>
+  <strong>Stock:</strong>
+  <%= @farmer.stock %>
+</p>
+
+<%= link_to 'Edit', edit_farmer_path(@farmer) %> |
+<%= link_to 'Back', farmers_path %>
